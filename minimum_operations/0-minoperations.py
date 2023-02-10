@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''main file for testing'''
+"""main file for testing"""
 
 def minOperations(n):
     '''calculates fewest number of operations'''
