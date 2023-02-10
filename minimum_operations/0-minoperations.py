@@ -9,12 +9,12 @@ def minOperations(n):
     """
     if n <= 1:
         return 0
-        Args, evn, Operations = n, 2, 0
+    Args, evn, Operations = n, 2, 0
 
-        while Args > 1:
-            if Args % evn == 0:
-                Args = Args / evn
-                Operations = Operations + evn
-            else:
+    while Args > 1:
+        if Args % evn == 0:
+            Args = Args / evn
+            Operations = Operations + evn
+        else:
                 evn += 1
-        return Operations
+    return Operations
