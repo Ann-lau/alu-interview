@@ -14,4 +14,4 @@ def minOperations(n):
             a += b
             n = n / b
             b += 1
-            return a
+    return a
