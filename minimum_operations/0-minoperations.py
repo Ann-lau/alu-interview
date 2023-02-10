@@ -3,6 +3,7 @@
 main file for testing
 """
 
+
 def minOperations(n):
     """
     calculates minimum number of operations
@@ -18,4 +19,3 @@ def minOperations(n):
         else:
                 evn += 1
     return Operations
-    
