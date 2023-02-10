@@ -18,3 +18,4 @@ def minOperations(n):
         else:
                 evn += 1
     return Operations
+    
