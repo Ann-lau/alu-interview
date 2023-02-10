@@ -3,7 +3,6 @@
 main file for testing
 """
 
-
 def minOperations(n):
     """
     calculates minimum number of operations
