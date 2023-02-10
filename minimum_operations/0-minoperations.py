@@ -14,6 +14,7 @@ def minOperations(n):
     while Args > 1:
         if Args % evn == 0:
             Args = Args / evn
+            Operations = Operations + evn
         else:
             evn += 1
     return Operations
