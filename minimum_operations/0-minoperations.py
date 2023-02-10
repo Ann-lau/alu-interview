@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-'''main file for testing'''
+""" main file for testing """
 
 def minOperations(n):
-    '''calculates fewest number of operations'''
+    """ calculates fewest number of operations"""
     if n <= 1:
         return 0
         Args, evn, Operations = n, 2, 0
