@@ -3,6 +3,7 @@
 calculating square units of water
 """
 
+
 def rain(walls):
     """units of water retained"""
     quantity = 0
