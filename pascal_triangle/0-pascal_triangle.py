@@ -1,12 +1,21 @@
 #!/usr/bin/python3
-def printPascal(n):
+"""pPrint Pascals triangle"""
 
-    for i in range(n+1):
-        c=1
-        for j in range(1, i+1):
-            print(c, sep=' ', end='')
-            c=c*(i-j)//j
-        print()
-#driver code
-n = int(input("num: "))
-printPascal(n)
+from math import factorial
+
+def pascal_triangle(n):
+    """returns a list of lists of integers representing the Pascal’s triangle"""
+    if n <= 0:
+        return[]
+    
+    n = 5
+    for i in range(n):
+        for j in range(n-i+1)
+
+        #for left spacing
+        print(end=" ")
+
+    for j in range(i+1):
+
+        #nCr = n!/((n-r)!*r!)
+        print(factorial(i)//(factorial(j)*factorial(i-j)), end=" ")
