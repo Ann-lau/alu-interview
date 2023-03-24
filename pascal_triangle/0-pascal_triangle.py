@@ -19,4 +19,4 @@ def pascal_triangle(n):
 
                 #using binomial coefficient
                 C = C * (i - j) // j
-        print(n)
+        print(pascal_triangle)
