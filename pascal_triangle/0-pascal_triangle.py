@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def printPascal(n):
 
     for i in range(n+1):
