@@ -15,4 +15,4 @@ def pascal_triangle(n):
             new.append(left + right)
         new = [1] + new + [1]
         pascal = new
-    return pascal
+    return [pascal]
