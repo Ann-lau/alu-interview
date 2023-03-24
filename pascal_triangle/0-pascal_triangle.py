@@ -3,9 +3,9 @@
 
 def pascal_triangle(n):
     """returns a list of lists of integers representing the Pascal’s triangle"""
-    if n <= 0:
-        return[]
-    
+
+    n = 5
+
     for i in range(1, n+1):
         for j in range(0, n-i+1):
             print(' ', end='')
@@ -17,6 +17,6 @@ def pascal_triangle(n):
                 #first value in a line is always 1
                 print(' ', C, sep='', end='')
 
-                #usinf binomial coefficient
+                #using binomial coefficient
                 C = C * (i - j) // j
-        print()
+        print(n)
